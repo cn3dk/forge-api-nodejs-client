@@ -386,7 +386,9 @@ module.exports = (function () {
 				'urn': urn,
 				'guid': guid
 			};
-			var queryParams = {};
+			var queryParams = {
+				'forceget': opts.forceget || false
+			};
 			var headerParams = {
 				'Accept-Encoding': opts.acceptEncoding
 			};
