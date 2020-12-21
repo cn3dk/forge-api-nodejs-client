@@ -390,7 +390,8 @@ module.exports = (function () {
 				'forceget': opts.forceget || false
 			};
 			var headerParams = {
-				'Accept-Encoding': opts.acceptEncoding
+				'Accept-Encoding': opts.acceptEncoding,
+				'x-ads-force': opts.xAdsForce || false
 			};
 			var formParams = {};
 
@@ -437,7 +438,8 @@ module.exports = (function () {
 				'forceget': opts.forceget || false
 			};
 			var headerParams = {
-				'Accept-Encoding': opts.acceptEncoding
+				'Accept-Encoding': opts.acceptEncoding,
+				'x-ads-force': opts.xAdsForce || false
 			};
 			var formParams = {};
 
